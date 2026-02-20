@@ -1,0 +1,1 @@
+import{lib as e}from"noname";function n(){if(!e.config[`extension_${decadeUIName}_eruda`])return;const n=document.createElement("script");n.src=`${decadeUIPath}src/libs/eruda.js`,n.onload=()=>eruda.init(),document.body.appendChild(n)}function o(){window.require&&!window.fs&&(window.fs=require("fs"))}export{n as initEruda,o as initNodeFS};

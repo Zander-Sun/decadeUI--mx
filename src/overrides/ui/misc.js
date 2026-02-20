@@ -1,0 +1,1 @@
+import{game as e}from"noname";function t(){e.addVideo("uiClear");const t=document.getElementsByClassName("thrown");for(let e=t.length-1;e>=0;e--)t[e].fixed||(t[e].classList.contains("card")?t[e].name&&(t[e].name.startsWith("shengbei_left_")||t[e].name.startsWith("shengbei_right_"))?t[e].delete():window.decadeUI.layout.clearout(t[e]):t[e].delete())}export{t as uiClear};
